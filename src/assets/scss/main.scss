@@ -1,7 +1,15 @@
+//others
+@import "resetCss.scss";
+@import "global.scss";
+
 //components
 @import "components/header";
-
+@import "components/button";
+@import "components/heroBanner";
+@import "components/footer";
 
 //pages
-
 @import "pages/home";
+
+
+

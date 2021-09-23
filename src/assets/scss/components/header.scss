@@ -1,3 +1,30 @@
-nav{
-  background: red;
+.header{
+  background-color: $default-black;
+  width:100%;
+  color:#fff;
+    &__container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 4rem;
+
+      &__logo{
+        width:10.625rem;
+        height:2.375rem;
+      }
+
+      &__list{
+        list-style: none;
+          li{
+            display: inline;
+            margin-left: 20px;
+              a{
+                color: $default-white;
+                text-decoration: none;
+                font-size: 1.563rem;
+              }
+          }
+      }
+    }
+
 }

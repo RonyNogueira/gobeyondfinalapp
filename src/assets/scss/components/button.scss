@@ -1,0 +1,12 @@
+.default-btn{
+  width: 200px;
+  height: 45px;
+  border: 1px solid $default-gray;
+  background-color: $default-white;
+  cursor: pointer;
+  color: $default-black;
+    &:hover{
+      opacity: .5;
+      transition: opacity .15s ease-in;
+    }
+}
