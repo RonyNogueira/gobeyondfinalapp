@@ -1,12 +1,19 @@
 .default-btn{
   width: 200px;
-  height: 45px;
+  max-width: 200px;
+  height: 50px;
   border: 1px solid $default-gray;
   background-color: $default-white;
   cursor: pointer;
   color: $default-black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
     &:hover{
       opacity: .5;
       transition: opacity .15s ease-in;
     }
+  &__icon{
+      margin-left: 8px;
+  }
 }

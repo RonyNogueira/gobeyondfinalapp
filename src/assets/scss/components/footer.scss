@@ -36,6 +36,10 @@
                   color: $default-black;
                   display: inline-block;
                   padding-bottom: 10px;
+                  &:hover{
+                    opacity: .5;
+                    transition: opacity .15s ease-in;
+                  }
                 }
               }
           }
@@ -54,7 +58,7 @@
           font-weight: bold;
         }
         li{
-          margin-bottom: 20px;
+          margin-bottom: 15px;
           font-size: 12px;
           font-weight: 500;
           line-height: 15px;

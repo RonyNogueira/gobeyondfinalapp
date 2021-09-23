@@ -4,7 +4,7 @@ import {useQuery} from "react-query";
 
 
  const getImage = async ()=>{
-        const { data } = await api.get("/photos?_start=5&_limit=4")
+        const { data } = await api.get("/photos?_start=1&_limit=4")
         return data
 }
 
