@@ -49,13 +49,14 @@ const Home = ()=>{
 
                     }
 
-
-                    <Button
-                        text='veja mais'
-                        btnClass='home__content__btn-more'
-                        useIcon={true}
-                        icon={faChevronCircleRight}
-                    />
+                    <a className='home__content__left__link' href="https://www.corebiz.ag/pt/" target='_blank'>
+                        <Button
+                            text='veja mais'
+                            btnClass='home__content__btn-more'
+                            useIcon={true}
+                            icon={faChevronCircleRight}
+                        />
+                    </a>
 
                     <div className="home__content__thumbs">
                         {

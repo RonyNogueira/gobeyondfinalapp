@@ -30,6 +30,9 @@
     padding-bottom: 49px;
       &__left{
         padding-right: 8rem;
+          &__link{
+            text-decoration: none;
+          }
       }
       &__thumbs{
         display: flex;

@@ -6,9 +6,6 @@
   background-color: $default-white;
   cursor: pointer;
   color: $default-black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
     &:hover{
       opacity: .5;
       transition: opacity .15s ease-in;

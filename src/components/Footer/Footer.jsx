@@ -1,29 +1,47 @@
 import React from "react"
 import logoFooter from "../../assets/img/logo-corebiz-black.svg"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebookF, faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+
+
 const Footer = ()=>{
     return(
         <section>
             <footer className="footer">
                 <div className='footer__social'>
                     <div className='footer__social__logo'>
-                        <img className='footer__social__logo__img' src={logoFooter} alt=""/>
+                        <a href="https://www.corebiz.ag/pt/" target='_blank'>
+                            <img className='footer__social__logo__img' src={logoFooter} alt=""/>
+                        </a>
                         <span className='footer__social__rights'>direitos reservados, corebiz 2021</span>
-                        social
+
+                        <div className='footer__social__logo__social-icons'>
+                            <a href="https://www.facebook.com/corebiz.ag/" target='_blank'>
+                                <FontAwesomeIcon icon={faFacebookF}/>
+                            </a>
+                            <a href="https://www.instagram.com/corebizag/" target='_blank'>
+                                <FontAwesomeIcon icon={faInstagram}/>
+                            </a>
+                            <a href="https://www.linkedin.com/company/corebiz-brasil/" target='_blank'>
+                                <FontAwesomeIcon icon={faLinkedinIn}/>
+                            </a>
+
+                        </div>
                     </div>
 
                     <div className='footer__social__menu'>
                         <ul>
                             <li>
-                                <a href="">a corebiz</a>
+                                <a href="https://www.corebiz.ag/pt/about/" target='_blank'>a corebiz</a>
                             </li>
                             <li>
-                                <a href="">serviços</a>
+                                <a href="https://www.corebiz.ag/pt/#framework-title" target='_blank'>serviços</a>
                             </li>
                             <li>
-                                <a href="">cases</a>
+                                <a href="https://www.corebiz.ag/pt/cases/" target='_blank'>cases</a>
                             </li>
                             <li>
-                                <a href="">contato</a>
+                                <a href="https://www.corebiz.ag/pt/contato/" target='_blank'>contato</a>
                             </li>
                         </ul>
                     </div>
