@@ -53,6 +53,34 @@
           }
         }
     }
+
+    &__menu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition:  1s;
+      max-height: 0;
+      overflow: hidden;
+      margin-top: 20px;
+      ul{
+          list-style: none;
+          width: 100%;
+          text-align: center;
+            li {
+              padding: 10px 0;
+              border-bottom: 1px solid $default-gray;
+              a{
+                text-decoration: none;
+                font-size: 1.2em;
+                color: $default-white;
+              }
+            }
+      }
+      &.active{
+        transition: 2s;
+        max-height: 100vh;
+      }
+    }
   }
 
 }
