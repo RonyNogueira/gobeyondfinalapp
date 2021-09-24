@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/img/logo-corebiz-global.svg"
-import {Link} from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, } from '@fortawesome/free-solid-svg-icons'
 
 const Header = ()=>{
     return(
@@ -25,6 +26,19 @@ const Header = ()=>{
 
                 </ul>
             </nav>
+
+            <div className="header__mob-nav">
+                <div className="header__mob-nav__content">
+                    <a href="https://www.corebiz.ag/pt/" target='_blank'>
+                        <img src={logo} className="header__container__logo" alt="logo da corebiz"/>
+                    </a>
+
+                        <div className="header__mob-nav__content__menu-bars">
+                            <FontAwesomeIcon className="btn-open" icon={faBars} size={"lg"}/>
+                        </div>
+
+                </div>
+            </div>
         </header>
 
     )

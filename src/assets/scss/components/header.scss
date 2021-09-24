@@ -7,6 +7,9 @@
       justify-content: space-between;
       align-items: center;
       padding: 2rem 4rem;
+      @media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+        display: none;
+      }
 
       &__logo{
         width:10.625rem;
@@ -34,5 +37,22 @@
           }
       }
     }
+
+  &__mob-nav{
+    padding: 30px;
+    @media only screen and (min-device-width : 769px){
+      display: none;
+    }
+    &__content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+        &__menu-bars{
+          svg{
+            font-size: 30px;
+          }
+        }
+    }
+  }
 
 }

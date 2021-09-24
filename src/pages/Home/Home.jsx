@@ -34,21 +34,23 @@ const Home = ()=>{
     return(
         <main className='container home'>
             <div className="home__content">
-                <article className='home__content__left'>
-                    {
-                        !isLoading ? <h1 className='home__title'>{imgData.title}</h1> :
-                            <SkeletonTheme color="#353b48" highlightColor="#F4F4F4">
+               <div className="home__content__grid-title">
+                   {
+                       !isLoading ? <h1 className='home__title'>{imgData.title}</h1> :
+                           <SkeletonTheme color="#353b48" highlightColor="#F4F4F4">
 
-                                <Skeleton className="home__title__skeleton first"/>
+                               <Skeleton className="home__title__skeleton first"/>
 
-                                <Skeleton className="home__title__skeleton"/>
+                               <Skeleton className="home__title__skeleton"/>
 
-                                <Skeleton className="home__title__skeleton"/>
+                               <Skeleton className="home__title__skeleton"/>
 
-                            </SkeletonTheme>
+                           </SkeletonTheme>
 
-                    }
+                   }
+               </div>
 
+                <div className='home__content__grid-button'>
                     <a className='home__content__left__link' href="https://www.corebiz.ag/pt/" target='_blank'>
                         <Button
                             text='veja mais'
@@ -57,8 +59,9 @@ const Home = ()=>{
                             icon={faChevronCircleRight}
                         />
                     </a>
+                </div>
 
-                    <div className="home__content__thumbs">
+                    <div className="home__content__grid-thumbs home__content__thumbs">
                         {
                             !isLoading ?
                             data?.map((pic, index)=>(
@@ -78,15 +81,14 @@ const Home = ()=>{
 
                     </div>
 
-                </article>
-                <section className="home__content__right">
+                <div className="home__content__grid-banner">
                     {
                         !isLoading  ? <HeroBanner imgUrl={imgData.url}/> :
                             <SkeletonTheme color="#353b48" highlightColor="#718093">
                                 <Skeleton height={667}/>
                             </SkeletonTheme>
                     }
-                </section>
+                </div>
             </div>
 
 
