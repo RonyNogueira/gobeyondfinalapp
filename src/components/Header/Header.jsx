@@ -9,21 +9,21 @@ const Header = ()=>{
     return(
         <header className="header">
             <nav className="header__container">
-                <a href="https://www.corebiz.ag/pt/" target='_blank'>
+                <a href="https://www.corebiz.ag/pt/" target='_blank' rel="noreferrer">
                     <img src={logo} className="header__container__logo" alt="logo da corebiz"/>
                 </a>
                 <ul className="header__container__list">
                     <li>
-                        <a href="https://www.corebiz.ag/pt/about/" target='_blank'>a corebiz</a>
+                        <a href="https://www.corebiz.ag/pt/about/" target='_blank' rel="noreferrer">a corebiz</a>
                     </li>
                     <li>
-                        <a href="https://www.corebiz.ag/pt/#framework-title" target='_blank'>serviços</a>
+                        <a href="https://www.corebiz.ag/pt/#framework-title" target='_blank' rel="noreferrer">serviços</a>
                     </li>
                     <li>
-                        <a href="https://www.corebiz.ag/pt/cases/" target='_blank'>cases</a>
+                        <a href="https://www.corebiz.ag/pt/cases/" target='_blank' rel="noreferrer">cases</a>
                     </li>
                     <li>
-                        <a href="https://www.corebiz.ag/pt/contato/" target='_blank'>contato</a>
+                        <a href="https://www.corebiz.ag/pt/contato/" target='_blank' rel="noreferrer">contato</a>
                     </li>
 
                 </ul>
@@ -31,7 +31,7 @@ const Header = ()=>{
 
             <div className="header__mob-nav">
                 <div className="header__mob-nav__content">
-                    <a href="https://www.corebiz.ag/pt/" target='_blank'>
+                    <a href="https://www.corebiz.ag/pt/" target='_blank' rel="noreferrer">
                         <img src={logo} className="header__container__logo" alt="logo da corebiz"/>
                     </a>
 
@@ -44,16 +44,16 @@ const Header = ()=>{
                 <div className={menuOpen ? 'header__mob-nav__menu active' : 'header__mob-nav__menu'}>
                     <ul>
                         <li>
-                            <a href="https://www.corebiz.ag/pt/about/" target='_blank'>a corebiz</a>
+                            <a href="https://www.corebiz.ag/pt/about/" target='_blank' rel="noreferrer">a corebiz</a>
                         </li>
                         <li>
-                            <a href="https://www.corebiz.ag/pt/#framework-title" target='_blank'>serviços</a>
+                            <a href="https://www.corebiz.ag/pt/#framework-title" target='_blank' rel="noreferrer">serviços</a>
                         </li>
                         <li>
-                            <a href="https://www.corebiz.ag/pt/cases/" target='_blank'>cases</a>
+                            <a href="https://www.corebiz.ag/pt/cases/" target='_blank' rel="noreferrer">cases</a>
                         </li>
                         <li>
-                            <a href="https://www.corebiz.ag/pt/contato/" target='_blank'>contato</a>
+                            <a href="https://www.corebiz.ag/pt/contato/" target='_blank' rel="noreferrer">contato</a>
                         </li>
                     </ul>
                 </div>

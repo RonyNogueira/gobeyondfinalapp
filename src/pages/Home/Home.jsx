@@ -51,7 +51,7 @@ const Home = ()=>{
                </div>
 
                 <div className='home__content__grid-button'>
-                    <a className='home__content__left__link' href="https://www.corebiz.ag/pt/" target='_blank'>
+                    <a className='home__content__left__link' href="https://www.corebiz.ag/pt/" target='_blank' rel="noreferrer">
                         <Button
                             text='veja mais'
                             btnClass='home__content__btn-more'
