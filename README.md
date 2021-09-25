@@ -34,9 +34,9 @@ Para iniciar o código é necessário primeiro clonar o repositório
 
 ### `git clone https://github.com/RonyNogueira/gobeyondfinalapp.git`
 Logo após é necessário instalar as dependencias do projeto\
-###`npm install`\
-Em seguida rode o seguinte comando para iniciar a aplicação localmente\ 
-### `npm start`
+`npm install`\
+Em seguida rode o seguinte comando para iniciar a aplicação localmente
+`npm start`
 
 <span style="color:red">IMPORTANTE ! ! !</span> essa aplicação utiliza "Node-Sass 6.0.1" tenha certeza de que a versão do Node.js instalada em seu computador seja pelo menos a 16.0
 
