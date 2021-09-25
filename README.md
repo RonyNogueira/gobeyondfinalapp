@@ -13,7 +13,8 @@ A prosta era criar uma aplicação o mais próxima possível com o layout oferec
     <img alt="home mobile" src="public/readmeImg/homeMobile.png" width="400px" />
 </h1>
 
-Para sinalizar ao usuário de que esta ocorrendo uma requisição, foi utilizado um pré-render, com isso caso a pessoa esteja com uma conexão lenta ela terá um feedBack de que algo esta carregando na tela, ao invez de visualizar espaços vazios no site. 
+Foi utilizado pré-render, com isso, caso a pessoa esteja com uma conexão lenta,
+ela terá um feedBack de que algo esta carregando na tela, ao invés de visualizar espaços vazios no site. 
 <h1 align="center">
     <img alt="home" src="public/readmeImg/preloader.gif" width="100%" />
 </h1>
