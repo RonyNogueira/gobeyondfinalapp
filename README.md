@@ -18,7 +18,8 @@ ela terá um feedBack de que algo esta carregando na tela, ao invés de visualiz
 <h1 align="center">
     <img alt="home" src="public/readmeImg/preloader.gif" width="100%" />
 </h1>
-##Tecnologias
+
+## Tecnologias
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [React](https://reactjs.org)
@@ -26,13 +27,11 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - [React Query](https://react-query.tanstack.com/)
 - [Sass](https://sass-lang.com/) ( Node-Sass )
 
-##Iniciando o projeto
+## Iniciando o projeto
 
 Para iniciar o código é necessário primeiro clonar o repositório
 
-
-
-### `git clone https://github.com/RonyNogueira/gobeyondfinalapp.git`
+`git clone https://github.com/RonyNogueira/gobeyondfinalapp.git`
 Logo após é necessário instalar as dependencias do projeto\
 `npm install`\
 Em seguida rode o seguinte comando para iniciar a aplicação localmente
